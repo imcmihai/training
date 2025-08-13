@@ -1,9 +1,7 @@
-const CompanionsPage = () => {
-    return (
+const Companions = () =>{
+    return(
         <div>
-            <h1>Companions</h1>
+            Companions
         </div>
-    );
-};
-
-export default CompanionsPage;
+    )
+}

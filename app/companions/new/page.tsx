@@ -1,9 +1,14 @@
-const NewCompanionPage = () => {
-    return (
-        <div>
-            <h1>New Companion</h1>
-        </div>
-    );
-};
+import CompanionForm from "@/components/CompanionForm";
 
-export default NewCompanionPage;
+const NewCompanions = () => {
+    return(
+        <main className="min-lg:2-1/3 mind-md:w-2">
+            <article className="w-full gap-4 flex flex-col">
+                <h1> Companion Builder</h1>
+            <CompanionForm/>
+            </article>
+        </main>
+    )
+}
+
+export default NewCompanions;
