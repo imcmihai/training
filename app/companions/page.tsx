@@ -1,4 +1,4 @@
-const Companions = () =>{
+const CompanionsLibrary = () =>{
     return(
         <div>
             Companions
